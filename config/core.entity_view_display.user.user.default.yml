@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_steam_id
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -15,11 +16,23 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
+  field_steam_id:
+    weight: 0
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 0
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
   member_for:
-    weight: 5
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
   user_picture:
     type: image
-    weight: 0
+    weight: 1
     settings:
       image_style: thumbnail
       image_link: content

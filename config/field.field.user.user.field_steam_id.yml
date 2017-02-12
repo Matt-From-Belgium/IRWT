@@ -1,0 +1,24 @@
+uuid: ffa7c525-22c0-43e4-932c-f278b4ddd5f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_steam_id
+  module:
+    - user
+id: user.user.field_steam_id
+field_name: field_steam_id
+entity_type: user
+bundle: user
+label: 'Steam ID'
+description: 'Your steam ID. In a later phase of development we will use this to connect the RUST server to this website and enable extra features. For now it will be mainly used to add others as a friend on Steam. Can''t find your id? <a href="https://steamid.io">Look it up here</a> (use the STEAMID64 value)'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

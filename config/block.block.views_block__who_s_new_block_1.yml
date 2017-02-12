@@ -1,0 +1,24 @@
+uuid: 4711c56c-e816-4ba2-bf76-f0064e0c86ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_new
+  module:
+    - views
+  theme:
+    - zircon
+id: views_block__who_s_new_block_1
+theme: zircon
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'views_block:who_s_new-block_1'
+settings:
+  id: 'views_block:who_s_new-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
