@@ -1,0 +1,30 @@
+uuid: 51ed775b-f2d9-40b2-a39a-ccc7f2130ef5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.main_slideshow
+  module:
+    - system
+    - views
+  theme:
+    - zircon
+id: views_block__main_slideshow_block_1
+theme: zircon
+region: slideshow
+weight: 0
+provider: null
+plugin: 'views_block:main_slideshow-block_1'
+settings:
+  id: 'views_block:main_slideshow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
