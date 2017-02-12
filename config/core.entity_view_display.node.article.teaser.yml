@@ -43,9 +43,6 @@ content:
       link: true
     third_party_settings: {  }
     label: above
-  links:
-    weight: 100
 hidden:
   comment: true
-  field_image: true
-  field_tags: true
+  links: true
