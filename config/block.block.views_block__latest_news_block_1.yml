@@ -1,21 +1,21 @@
-uuid: 4711c56c-e816-4ba2-bf76-f0064e0c86ff
+uuid: 6b6a925a-1c35-42b5-b108-1992c5b6f8cd
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.who_s_new
+    - views.view.latest_news
   module:
     - views
   theme:
     - zircon
-id: views_block__who_s_new_block_1
+id: views_block__latest_news_block_1
 theme: zircon
 region: sidebar_second
-weight: -9
+weight: -8
 provider: null
-plugin: 'views_block:who_s_new-block_1'
+plugin: 'views_block:latest_news-block_1'
 settings:
-  id: 'views_block:who_s_new-block_1'
+  id: 'views_block:latest_news-block_1'
   label: ''
   provider: views
   label_display: visible
