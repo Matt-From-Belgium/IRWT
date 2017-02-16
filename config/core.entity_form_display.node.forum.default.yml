@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.forum.body
     - field.field.node.forum.comment_forum
+    - field.field.node.forum.field_poll
     - field.field.node.forum.taxonomy_forums
     - node.type.forum
   module:
@@ -36,6 +37,11 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_poll:
+    weight: 31
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
   path:
     type: path
     weight: 30

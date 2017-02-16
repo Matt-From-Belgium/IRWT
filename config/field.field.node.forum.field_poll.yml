@@ -1,0 +1,25 @@
+uuid: d049ff81-a566-41ce-80c9-af74e08efdc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_poll
+    - node.type.forum
+id: node.forum.field_poll
+field_name: field_poll
+entity_type: node
+bundle: forum
+label: Poll
+description: 'If you want to display a poll you can link it here'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:poll'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

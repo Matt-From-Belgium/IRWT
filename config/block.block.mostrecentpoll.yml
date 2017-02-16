@@ -1,0 +1,28 @@
+uuid: f6093dd0-6004-43f0-8613-52fa96b81a0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - poll
+    - user
+  theme:
+    - zircon
+id: mostrecentpoll
+theme: zircon
+region: sidebar_second
+weight: -9
+provider: null
+plugin: poll_recent_block
+settings:
+  id: poll_recent_block
+  label: 'You decide!'
+  provider: poll
+  label_display: visible
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
