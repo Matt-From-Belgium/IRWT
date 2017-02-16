@@ -20,10 +20,6 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
-  contact:
-    weight: 4
-    settings: {  }
-    third_party_settings: {  }
   field_steam_id:
     weight: 1
     settings:
@@ -45,4 +41,5 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     weight: 2
-hidden: {  }
+hidden:
+  contact: true

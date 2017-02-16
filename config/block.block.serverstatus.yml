@@ -1,0 +1,25 @@
+uuid: 599591ae-14d9-425a-9027-f09b54806413
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6302c8e9-c06d-4cb1-825a-4c6699364190'
+  module:
+    - block_content
+  theme:
+    - zircon
+id: serverstatus
+theme: zircon
+region: sidebar_second
+weight: -10
+provider: null
+plugin: 'block_content:6302c8e9-c06d-4cb1-825a-4c6699364190'
+settings:
+  id: 'block_content:6302c8e9-c06d-4cb1-825a-4c6699364190'
+  label: 'Server status'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

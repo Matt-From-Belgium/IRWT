@@ -1,0 +1,26 @@
+uuid: 51cc3895-9147-4010-9c78-107c92c4d957
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.moderator_request
+    - field.field.contact_message.moderator_request.field_why_should_you_be_a_modera
+id: contact_message.moderator_request.default
+targetEntityType: contact_message
+bundle: moderator_request
+mode: default
+content:
+  field_why_should_you_be_a_modera:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  message:
+    type: string
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

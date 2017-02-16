@@ -1,0 +1,12 @@
+uuid: ebc7f082-816c-4eea-b9ae-09ef784a1b5c
+langcode: en
+status: true
+dependencies: {  }
+id: moderator_request
+label: 'Apply for moderator'
+recipients:
+  - matthias.bauw@gmail.com
+reply: ''
+weight: 0
+message: 'Thank you for your request! We will be in touch'
+redirect: /

@@ -25,4 +25,5 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
+  field_steam_id: true
   member_for: true

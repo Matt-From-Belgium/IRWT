@@ -16,3 +16,6 @@ permissions:
   4: 'skip comment approval'
   5: 'access site-wide contact form'
   7: 'search content'
+  8: 'edit own comments'
+  9: 'create forum content'
+  10: 'edit own forum content'

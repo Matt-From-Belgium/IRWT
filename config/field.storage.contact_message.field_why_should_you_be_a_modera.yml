@@ -1,0 +1,19 @@
+uuid: f016f01d-9a8e-4d77-bbe1-5db377f2a452
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_why_should_you_be_a_modera
+field_name: field_why_should_you_be_a_modera
+entity_type: contact_message
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

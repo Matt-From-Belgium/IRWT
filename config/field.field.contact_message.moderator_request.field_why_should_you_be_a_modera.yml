@@ -1,0 +1,19 @@
+uuid: f967405c-6e95-4957-a47d-95d7da00f0c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.moderator_request
+    - field.storage.contact_message.field_why_should_you_be_a_modera
+id: contact_message.moderator_request.field_why_should_you_be_a_modera
+field_name: field_why_should_you_be_a_modera
+entity_type: contact_message
+bundle: moderator_request
+label: 'Why should you be a moderator?'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
