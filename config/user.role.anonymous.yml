@@ -13,3 +13,4 @@ permissions:
   1: 'use text format restricted_html'
   2: 'access comments'
   4: 'search content'
+  5: 'access polls'
